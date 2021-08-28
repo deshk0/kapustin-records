@@ -1,0 +1,176 @@
+:root {
+    --black: #101010;
+    --white: #efeff4;
+    --blue: #3333cc;
+}
+
+@media (max-width: 1100px) {
+    .Site-title {
+        font-size: 1.4em;
+        text-align: center;
+        font-weight: 600; 
+    }
+    .Site-p{
+        text-align: center;
+        font-weight: 400;
+        max-width: 300px;
+    }
+
+    .Site-subtitle {
+        font-size: 1em;
+        text-align: center;
+        padding: 0 20px;
+    }
+    #Services{
+        height: 990px;
+    }
+    #Footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .Footer-cl-right-map{
+        width: 280px;
+        height: 175px;
+    }
+    .Footer-cl-left, .Footer-cl-right{
+        height: 185px;
+    }
+    .Footer-social{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .Block-2-container{
+        margin: 20px 0;
+    }
+    .Block-2-container-cl-item{
+        width: 290px;
+    }
+    .Block-2-container-cl-item-box-name{
+        font-size: 1em;
+    }
+    .Block-2-container-cl-item-number, .Block-2-container-cl-item-number-10{
+        font-size: 2em;
+        margin-right: 0px;
+    }
+    .Block-2-container-cl-item-number-10{
+        margin: 0;
+    }
+    #Popup-form{
+        width: 280px;
+        height: 280px;
+    }
+    .Popup-form-button{
+        margin-top: 10px;
+        font-size: 0.6em;
+        padding: 10px;
+    }
+    .Popup-form-close{
+        font-size: 1.2em;
+        margin: 0px 15px;
+    }
+    .Popup-form-input{
+        margin: 18px 0;
+        font-size: 0.5em;
+        padding: 5px;
+    }
+    .Popup-form-box-text{
+        bottom: -5px;
+        font-size: 0.3em;
+    }
+    .Navbar-href{
+        display: none;
+    }
+    .Navbar-mobile-button{
+        display: flex;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    .Navbar-logo{
+        height: 40px;
+        width: 70px;
+    }
+    .Block-2-container-cl-item:hover::after{        
+        width: 280px;
+    }
+    .Mobile-menu{
+        transition: 0.3s;
+
+        display: flex;
+        flex-direction: column;
+        background-color: var(--black);
+        position: absolute;
+        height: 290px;
+        width: 140px;
+        right: 0;
+        z-index: -1;
+        top: -450px;
+        padding: 0 20px;
+    }
+    .Navbar-href-mob{
+        text-align: end;
+        border-bottom: 2px solid white;
+        padding: 5px 0;
+        margin: 10px 0;
+    }
+    .Mobile-menu_active{
+        transition: 0.3s;
+        top: 57px;
+    }
+    .Block-1-mob{
+        color: white;
+        padding: 20px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://db3pap003files.storage.live.com/y4mw_K2k0k06NY0ZVozW-GhdMB0q4ZAeVZyrwhhorRmt0bv9gpLX5S0yndsYnlsSO3wDIEPpY3-Scarqt5VYKGh4G-tbO9hpUvksn_-Y7sRTNhtfqYWyLaERrbZ169jwsmAn26JeBWJK1ec5bnJhCJyV88aP6OzmmghydMFo_v7VNA7wVhvMrFdaYIcQYUaJdzl?width=3024&height=4032&cropmode=none');
+        background-size: cover;
+    }
+    .Block-1-photo-button{
+        font-weight: 600;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        transition: 0.3s;
+        color: var(--white);
+        padding: 14px 30px;
+        border: 1px solid var(--blue);
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+    .Block-3-mob-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Block-3-mob-box-img{
+        height: 200px;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .Block-3-mob-box-p{
+        text-align: center;
+        font-weight: 400;
+        max-width: 300px;
+        margin: 20px;
+    }
+    .Block-4-container {
+        height: 265px;
+    }
+    .Block-4-container-box {
+        margin: 50px 15px;
+    }
+    .Block-4-container-box-up-button-box::after {
+        width: 125px;
+        left: -10px;
+    }
+    .Block-4-container-box-up-button-box {
+        padding: 10px;
+    }
+    .Block-4-container-box-up-button-box-href {
+        margin-left: 0;
+    }
+}
