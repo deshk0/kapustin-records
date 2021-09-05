@@ -152,6 +152,8 @@
         margin: 20px 0;
     }
     .Block-3-mob-box-p{
+        display: flex;
+        justify-content: center;
         text-align: center;
         font-weight: 400;
         max-width: 300px;

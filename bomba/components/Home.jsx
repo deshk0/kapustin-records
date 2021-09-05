@@ -650,7 +650,7 @@ class Block_2 extends React.Component {
 
     render(){
         return(
-            <div id = 'Services' className = 'Block'>
+            <div style = {{height:''}} id = 'Services' className = 'Block'>
                 <div className = 'Wrapper'>
                     <div className = 'Site-title'>Цены и услуги</div>
                     <div className = 'Site-subtitle'>Кликайте на нужную вам услугу</div>
