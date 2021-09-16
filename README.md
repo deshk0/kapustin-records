@@ -1,3 +1,3 @@
 # kapustin-records
 
-Landing Page for Kapustin Records http://kapustin-records.com.ua/
+Landing Page for Kapustin Records https://kapustin-records.com.ua/
